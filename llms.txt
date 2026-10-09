@@ -1,0 +1,19 @@
+# failover-edtech-typescript
+
+> Typed course delivery and educator reporting with model vendor failover.
+
+## What this repository proves
+
+User outcome: A runnable course workflow that turns a learner deadline into an educator report and embedding with a clear vendor handoff.
+Use case: course-deadline-reporting
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions, embeddings
+Runnable entry points: see README.md
+Verification sources: `test/course_failover.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

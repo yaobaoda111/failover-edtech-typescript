@@ -1,0 +1,1 @@
+{"name":"failover-edtech-typescript","private":true,"type":"module","scripts":{"start":"node --experimental-strip-types src/run_example.ts","test":"node --experimental-strip-types test/course_failover.test.ts","typecheck":"tsc --noEmit"},"dependencies":{"openai":"^4.0.0","zod":"^3.0.0"},"devDependencies":{"typescript":"^5.0.0"}}
